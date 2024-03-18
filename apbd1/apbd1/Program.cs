@@ -6,7 +6,7 @@ Console.WriteLine("Modyfikacja2!");
 Console.WriteLine("Modyfikacja3!");
 Console.WriteLine("Meow");
 
-static double GetAverage(int[] nums)
+static double GetAvg(int[] nums)
 {
     double sum = 0;
     for (int i = 0; i < nums.Length; i++)
@@ -18,7 +18,7 @@ static double GetAverage(int[] nums)
 }
 
 int[] nums = {1, 2, 3, 4};
-double avrg = GetAverage(nums);
+double avrg = GetAvg(nums);
 Console.WriteLine(avrg);
 //zad4
 static int GetMax(int[] numbers)
