@@ -4,6 +4,7 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Hello, World1!");
 Console.WriteLine("Modyfikacja2!");
 Console.WriteLine("Modyfikacja3!");
+Console.WriteLine("Meow");
 
 static double GetAverage(int[] nums)
 {
