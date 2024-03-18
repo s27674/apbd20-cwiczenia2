@@ -8,13 +8,13 @@ Console.WriteLine("Meow");
 
 static double GetAverage(int[] nums)
 {
-    double sum = 0;
+    double num = 0;
     for (int i = 0; i < nums.Length; i++)
     {
-        sum += nums[i];
+        num += nums[i];
     }
 
-    return sum / nums.Length;
+    return num / nums.Length;
 }
 
 int[] nums = {1, 2, 3, 4};
